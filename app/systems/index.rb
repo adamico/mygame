@@ -1,0 +1,7 @@
+require 'app/systems/handle_game_over.rb'
+require 'app/systems/handle_game_start.rb'
+require 'app/systems/handle_input.rb'
+require 'app/systems/handle_restart.rb'
+require 'app/systems/render_labels.rb'
+require 'app/systems/render_solids.rb'
+require 'app/systems/render_sprites.rb'

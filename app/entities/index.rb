@@ -1,0 +1,7 @@
+require 'app/entities/background.rb'
+require 'app/entities/game_over.rb'
+require 'app/entities/instructions.rb'
+require 'app/entities/player.rb'
+require 'app/entities/restart_instructions.rb'
+require 'app/entities/start_game_instructions.rb'
+require 'app/entities/title.rb'
