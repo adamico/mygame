@@ -14,6 +14,7 @@ edition = "standard"
 
 [dependencies]
 draco = "0.6.1"
+draco-common = "0.4.1"
 
 [itch]
 # The Project URL you set when you created the game on Itch.io. https://my-username.itch.io/my-game.

@@ -1,6 +1,7 @@
 class HandleGameOver < Draco::System
   def tick(args)
     if args.inputs.keyboard.escape
+      $gtk.show_cursor
       world.systems.delete(HandleInput)
       world.systems.delete(HandleGameOver)
 

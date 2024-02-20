@@ -1,3 +1,5 @@
+$gtk.debug_require!
+
 require 'smaug.rb'
 
 def tick(args)
@@ -6,4 +8,4 @@ def tick(args)
   args.state.world.tick args
 end
 
-$gtk.reset
+$gtk.reset_next_tick

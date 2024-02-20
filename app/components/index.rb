@@ -1,7 +1,3 @@
 require 'app/components/color.rb'
 require 'app/components/label.rb'
-require 'app/components/position.rb'
-require 'app/components/size.rb'
 require 'app/components/solid.rb'
-require 'app/components/speed.rb'
-require 'app/components/sprite.rb'
