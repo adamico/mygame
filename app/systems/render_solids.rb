@@ -13,7 +13,7 @@ class RenderSolids < Draco::System
         g: entity.color.g,
         b: entity.color.b,
         a: entity.color.a
-      }.solid
+      }.to_solid
     end
 
     args.outputs.solids << solids

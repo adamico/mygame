@@ -14,7 +14,7 @@ class RenderLabels < Draco::System
         a: entity.color.a,
         size_enum: entity.label.size_enum,
         alignment_enum: entity.label.alignment_enum
-      }.label
+      }.to_label
     end
 
     args.outputs.labels << labels
